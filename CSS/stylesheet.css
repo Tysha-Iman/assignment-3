@@ -4,8 +4,9 @@
 
 html, body {
 	min-height: 100vh;
-	margin: 0;\font-family: 'Open Sans', sans-serif;
-	background-image: linear-gradient(black, #310949);
+	margin: 0;
+	font-family: 'Bubbler One', sans-serif;
+	color: white;
 }
 
 img {
@@ -24,6 +25,7 @@ header {
 body {
 	display: flex;
 	flex-direction: column;
+	background-image: linear-gradient(black, #310949);
 }
 
 .logo {
@@ -32,8 +34,7 @@ body {
 }
 
 main {
-	min-height: 100%;
-	margin-bottom: -50px;
+	/*min-height: 100%;*/
 	flex-grow: 1;
 	display: flex;
 	justify-content: center;
@@ -50,8 +51,12 @@ footer {
 	background: #202020;
 	border-top: 7px solid white;
 	display: grid;
-	grid-template-columns: 300px 300px;
+	grid-template-columns: 600px;
 	justify-content: center;
-	grid-gap: 50px;
+	grid-gap: 20px;
 	padding-top: 5px;
+}
+
+footer p{
+	margin: 0px;
 }
