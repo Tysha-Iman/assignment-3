@@ -2,6 +2,7 @@
 var vidcapture, ctracker, drawcanvas;
 var outerDiam = 0;
 
+
 function setup() {
 	var cnv = createCanvas(windowWidth/2, windowHeight/2);
 	cnv.parent("p5canvas");
