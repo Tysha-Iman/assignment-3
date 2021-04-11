@@ -41,7 +41,6 @@ function draw() {
 		ellipse(pos[0],pos[1], 9);
 
 		var xRotate = map(mouseX, 0, width, 0, 20)
-
 		angleMode(DEGREES)
 		rotate(xRotate);
 		// line(0, 0, 50, 50)
